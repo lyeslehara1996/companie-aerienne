@@ -1,0 +1,138 @@
+.contenu{
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+
+	align-items: center;
+	min-height: 100vh;
+}
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Style tab links */
+.tablink  {
+  background-color: #365390;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 70%;
+}
+
+.tablink: hover {
+  background-color: #777;
+  color: #fff;
+}
+
+.passager{
+	position: absolute;
+	border: 1.5px solid #365390;
+	background-color: #365390;
+	color: #fff;
+	padding: 13px;
+	text-align: center;
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+   margin-top: -40px;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  display: none;
+  padding: 100px 20px;
+}
+.salaire {
+  background: rgba(0, 0, 0, 0.9); /* Black background with 0.5 opacity */
+  color: #fff; /* Grey text */
+  padding: 21px; /* Some padding */
+}
+
+.card, .card-body , .card-footer{
+	background-color: #f1f1f1;
+	border-color:#f1f1f1;
+
+}
+
+
+.continuer{
+	border: none;
+	width: 120px;
+	background: #365390;
+	font-weight: 600;
+	color: #fff;
+	padding: 10px;
+}
+
+.continuer:hover{
+	background: #0f1b54;
+}
+.continuer1{
+	border: none;
+	width: 120px;
+	background: #365390;
+	font-weight: 600;
+	color: #fff;
+}
+
+.continuer1:hover{
+	background: #0f1b54;
+}
+
+
+.aller_retour a {
+    text-decoration: none;
+    outline: none;
+
+
+    display: block;
+    float: left;
+    font-size: 15px;
+    line-height: 50px;
+    color: white;
+  
+    background: #365390;
+   
+    position: relative;
+}
+
+.aller_retour a.active{
+    background: ;
+    cursor: auto;
+    color: white;
+    font-weight: 700;
+    background-color:  #0f1b54;
+
+}
+
+
+
+

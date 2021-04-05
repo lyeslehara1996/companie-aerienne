@@ -1,0 +1,145 @@
+
+
+
+
+.bt{
+    display: block;
+    position: relative;
+    border-radius: 0;
+    height: 100%;
+    float: left;
+    outline:none;
+    padding: 16px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: #eee;
+    color:#365390;
+    width:100%;
+    
+}
+
+.bt:hover{
+    background-color: gray;
+
+}
+.bt:focus {
+    box-shadow: none;
+}
+
+
+
+.pan{
+    padding: 0;
+    width:100%;
+
+   
+    display: flex;
+    flex-wrap: wrap;
+ 
+    background-color: #fff;
+ 
+}
+.pos{
+    height: 300px;
+
+     
+}
+.tabed{
+    border: none;
+    
+
+   
+    height:600px;
+    background: transparent;
+}
+@media screen and (max-width: 576px) {
+    .tabed{
+   margin-top:-500px;
+
+
+    }
+
+    .bt{
+      
+        border-top: 1px solid #2980b9;
+        overflow: hidden;
+
+        padding: 13px 20px;
+        background: rgb(0,0,64);
+        color: white;
+    }
+    .bt:hover{
+        background-color: gray;
+        color: #f9a602;
+        cursor: pointer;
+
+    }
+     .bt:before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    right: 50px;
+    bottom: 23px;
+    transform: rotate(45deg);
+}
+   
+    .btbgactivemobile:before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #edeff4;
+    right: 50px;
+    
+    transform: rotate(45deg);
+}
+ .btbgactivemobile{
+          background-color:#edeff4;
+          color: #f9a602;
+          cursor: auto;
+      }
+    .btbgactivemobile:hover{
+        background-color:#edeff4;
+          color: #f9a602;
+          cursor: auto;
+    }
+    
+    
+    .pan1{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 576px) {
+
+    
+    .pan1{
+        order: +3;
+
+    }
+    .pan2{
+        order: +2;
+    }
+    .bt{
+         border-right: solid 1px #ee9;
+    }
+.btbgactive{
+    background-color:#fff;
+    color: #f9a602;
+
+}
+
+.btbgactive:hover{
+
+     background-color:#fff;
+     cursor:auto;
+     color:#f9a602;
+}
+    .tabed{
+   margin-top:-500px;
+
+
+    }
+}

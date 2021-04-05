@@ -1,0 +1,28 @@
+.form-control:not(select) {
+    padding: 1.6rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.form-control:focus {
+    box-shadow: none;
+   
+}
+@media screen and (max-width: 576px) {
+	.form-control:not(select) {
+    padding: 0;
+}
+
+
+    
+
+}

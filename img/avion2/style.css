@@ -1,0 +1,32 @@
+path
+{
+  cursor: pointer;
+  fill : #365390 ; 
+  transition: .6s fill;
+}
+path:hover
+{
+  stroke : #F9A602;
+  stroke-width: 1;
+}
+rect
+{
+  cursor: pointer;
+  fill : #365390 ; 
+  transition: .6s fill;
+}
+rect:hover
+{
+  stroke : #F9A602;
+  stroke-width: 1;
+}
+.on
+{
+  cursor: pointer;
+  fill : #F9A602;
+}
+.occupe
+{
+  fill : red ; 
+  pointer-events:none;
+}

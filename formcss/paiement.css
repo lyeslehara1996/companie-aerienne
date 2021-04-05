@@ -1,0 +1,100 @@
+.contenu{
+	margin-top: 7px;
+	margin-bottom: 100px;
+}
+.register-left{
+	background: #365390;
+	border-top-right-radius: 10% 50% ;
+	border-bottom-right-radius: 10% 50%;
+	padding: 30px;
+}
+
+.register-left .btn-primary{
+	float: right;
+	border: none;
+	width: 120px;
+	background: #f9a602;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 20px;
+	padding: 10px;
+}
+.register-left .btn-primary:hover{
+	background: #ff5722;
+}
+
+
+.eye{
+	position: relative;
+	float: right;
+	margin-right: 18px;
+	top: 48px;
+	font-size: 25px;
+	cursor: pointer;
+	color: #999;
+}
+.eye.active{
+	color: black;
+}
+
+.register-right{
+	text-align: center;
+	color: black;
+	padding: 30px;
+	margin-top: 28px;
+
+}
+
+.register-right h2{
+	margin-top: 20px;
+}
+
+.register-right p{
+	padding: 20px 20px 0px;
+}
+/*.register-right img{
+	margin-top: 60px;
+	margin-bottom: 18px;
+	border-color: red;
+	width: 200px;
+	animation: mover 1s infinite alternate;
+}*/
+
+.register-right .btn-primary{
+	border: none;
+	width: 120px;
+	background: #365390;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.register-right .btn-primary:hover{
+	background: #0f1b54;
+}
+/*@keyframes mover{
+	0%{transform:translate(0);
+	0%{transform:translate(-20px);
+}*/
+
+.register-right i {
+  font-size: 80px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:0px; top:20px;}
+  75%  {left:0px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+
+
+ 

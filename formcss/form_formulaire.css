@@ -1,0 +1,108 @@
+.contenu{
+	margin-top: 7px;
+	margin-bottom: 200px;
+}
+.flex_form{
+	background-color:#365390;
+	height: 50px;
+	margin-top: 30px;
+	box-shadow: 10px 5px 5px rgba(0, 0, 255, 0.2);
+	text-align: center;
+	font-size: 23px;
+	color: #fff;
+
+	
+
+
+}
+ .flex_form:hover{
+ 
+ 	transition: 0.4s;
+ 	background: #f9a602;
+ 	cursor: pointer;
+    text-decoration: none;
+	
+
+}
+
+a{
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+	color: #f9a602;
+}
+
+
+
+
+form.info_passager{
+	
+	border:1px solid #365390;
+	box-shadow: 10px 5px 5px rgba(0, 0, 255, .2);
+	border-radius:0px 0px 10px 10px; 
+	
+}
+
+.icon1{
+	color: #fff;
+	font-size: 40px;
+
+
+}
+.btn-voirplus{
+	border: none;
+    cursor: pointer;
+    background: #365390;
+    
+}
+
+.btn-voirplus:hover{
+    cursor: pointer;
+    background: #0f1b54;
+    
+}
+
+.salaire {
+  background: rgba(0, 0, 0, 0.9); /* Black background with 0.5 opacity */
+  color: #fff; /* Grey text */
+  padding: 21px; /* Some padding */
+  margin-bottom: -8px;
+}
+
+.continuer{
+	border: none;
+	width: 120px;
+	background: #365390;
+	font-weight: 600;
+	color: #fff;
+	padding: 10px;
+}
+
+.continuer:hover{
+	background: #0f1b54;
+}
+
+
+
+@media screen and (max-width: 576px) {
+	.flex_form{
+	
+	height: 30px;
+	text-align: center;
+	font-size: 18px;
+
+
+}
+
+.icon1{
+	
+	font-size: 30px;
+
+}
+
+
+
+}
+
+

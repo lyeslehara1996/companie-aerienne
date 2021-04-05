@@ -1,0 +1,150 @@
+.breadcrumb {
+
+    /*centering*/
+    width: 100%;
+    display: inline-block;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    border-radius: 5px;
+    height: 100px;
+    /*Lets add the numbers for each link using CSS counters. flag is the name of the counter. to be defined using counter-reset in the parent element of the links*/
+    counter-reset: flag; 
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    outline: none;
+
+
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 36px;
+    color: white;
+  
+    padding: 15px 50px 15px 40px;
+    background: #365390;
+   
+    position: relative;
+}
+
+.breadcrumb a.active{
+    background: #f9a602;
+    cursor: auto;
+    color: white;
+    font-weight: 700;
+    color:  #365390;;
+
+}
+.breadcrumb a.active:after {
+    background: #f9a602;
+     box-shadow: 
+        2px -2px 0 2px rgba(0, 0, 0, 0.1), 
+        3px -3px 0 2px rgba(255, 255, 255, 0.1);
+
+    border-radius: 0 5px 0 50px;
+
+
+}
+
+
+.breadcrumb a:after {
+    content: '';
+    position: absolute;
+    top: 0; 
+    right: -32px; 
+    width: 69px; 
+    height: 67px;
+ 
+    transform: scale(0.680) rotate(45deg);
+
+    z-index: 1;
+ 
+    background: #365390;
+  
+
+    box-shadow: 
+        2px -2px 0 2px rgba(0, 0, 0, 0.1), 
+        3px -3px 0 2px white;
+
+    border-radius: 0 5px 0 50px;
+}
+
+.breadcrumb a:last-child:after {
+    content: none;
+}
+.breadcrumb {
+
+    /*centering*/
+    width: 100%;
+    display: inline-block;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    border-radius: 5px;
+    height: 100px;
+    /*Lets add the numbers for each link using CSS counters. flag is the name of the counter. to be defined using counter-reset in the parent element of the links*/
+    counter-reset: flag; 
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    outline: none;
+
+
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 36px;
+    color: white;
+  
+    padding: 15px 50px 15px 40px;
+    background: #365390;
+   
+    position: relative;
+}
+
+.breadcrumb a.active{
+    background: #f9a602;
+    cursor: auto;
+    color: white;
+    font-weight: 700;
+    color:  #365390;;
+
+}
+.breadcrumb a.active:after {
+    background: #f9a602;
+     box-shadow: 
+        2px -2px 0 2px rgba(0, 0, 0, 0.1), 
+        3px -3px 0 2px rgba(255, 255, 255, 0.1);
+
+    border-radius: 0 5px 0 50px;
+
+
+}
+
+
+.breadcrumb a:after {
+    content: '';
+    position: absolute;
+    top: 0; 
+    right: -32px; 
+    width: 69px; 
+    height: 67px;
+ 
+    transform: scale(0.680) rotate(45deg);
+
+    z-index: 1;
+ 
+    background: #365390;
+  
+
+    box-shadow: 
+        2px -2px 0 2px rgba(0, 0, 0, 0.1), 
+        3px -3px 0 2px white;
+
+    border-radius: 0 5px 0 50px;
+}
+
+.breadcrumb a:last-child:after {
+    content: none;
+}

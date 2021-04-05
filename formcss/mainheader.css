@@ -1,0 +1,21 @@
+h4{
+	padding-top: 12px;
+	color: #fff;
+
+}
+	
+
+#main-header{
+	border-radius: 0px 0px 12px 12px;
+	border-bottom: 5px solid #f9a602;
+	
+}
+ 
+.etape{
+	width: 100px;
+	height: 61px;
+	background-color: #f9a602;
+	border-bottom: 7px solid #fff;
+}
+
+

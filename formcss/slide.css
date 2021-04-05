@@ -1,0 +1,30 @@
+
+.slider{
+    height:500px;
+    width: 100% ;
+    background-position : center center ;
+    background-size : cover ;
+    background-repeat : no-repeat ;
+    backface-visibility : hidden ;
+    animation : slider 100s linear infinite 0s;
+    animation-timing-function: ease-in-out ;
+    background-image:url(../img/image1.jpeg);
+    
+}
+
+
+
+@media screen and (min-width: 500px) {
+@keyframes slider {
+    0%{background: url(../img/image1.jpeg)}
+    25%{background: url(../img/image2.jpeg)}
+    50%{background: url(../img/image3.jpeg)}
+    75%{background: url(../img/image4.jpeg)}
+    100%{background: url(../img/image5.jpeg)}
+    
+}
+
+}
+
+
+
